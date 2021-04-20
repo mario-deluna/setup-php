@@ -229,7 +229,7 @@ These tools can be setup globally using the `tools` input. It accepts a string i
 
 - Tools `prestissimo` and `composer-prefetcher` will be skipped unless `composer:v1` is also specified in tools input. It is recommended to drop `prestissimo` and use `composer v2`.
 
-- The latest versions of both agent `blackfire-agent` and client `blackfire` are setup when `blackfire` is specified in tools input. Please refer to the [official documentation](https://blackfire.io/docs/integrations/ci/github-actions "Blackfire.io documentation for GitHub Actions") for using `blackfire` with GitHub Actions.
+- The latest version of `blackfire` cli is setup when `blackfire` is specified in tools input. Please refer to the [official documentation](https://blackfire.io/docs/integrations/ci/github-actions "Blackfire.io documentation for GitHub Actions") for using `blackfire` with GitHub Actions.
 
 - Version for other tools should be in `semver` format and a valid release of the tool. This is useful for installing tools for older versions of PHP. For example to set up `PHPUnit` on `PHP 7.2`.
 
